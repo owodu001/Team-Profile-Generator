@@ -70,7 +70,7 @@ function runInquirerIntern() {
 
 async function run() {
     let employeeArray = [];
-    const maxTimes = 1;
+    const maxTimes = 4;
     for (i = 0; i < maxTimes; i++) {
         const promise = new Promise((resolve, reject) => {
             runInquirer()
